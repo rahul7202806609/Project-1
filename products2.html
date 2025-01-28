@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="website.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="photos/image-logo1-removebg-preview.png" width="200px">
+            </div>
+            <nav>
+                <ul id="mitems">
+                    <li><a href="E-commerceWeb2.html">Home</a></li>
+                    <li><a href="products.html">Product</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="Account2.html">Account</a></li>
+                </ul>
+            </nav>
+            <img src="photos/image15i.png.png" width="35px" height="35px" >
+            <img src="photos/image14ii.png.png" width="35px" height="35px" class="menu-icon" onclick="touch()">
+        </div>
+    </div>
+    <!--------Latest-Products------->
+    <div class="small-container single-product">
+        <div class="row">
+            <div class="col-2">
+                <img src="photos/images/image1.jpg" width="370px" id="ProductImage">
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="photos/images/image1.jpg" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="photos/images/image1i.jpg" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="photos/images/image1ii.jpg" class="small-img">
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <p>Home/T-shirt</p>
+                <h1>Black-Printed T-shirt By Shop Studio</h1>
+                <h4>$50.00</h4>
+                <select>
+                    <option>Select Size</option>
+                    <option>XL</option>
+                    <option>XXL</option>
+                    <option>XXL</option>
+                    <option>Small</option>
+                    <option>Medium</option>
+                    <option>Large</option>
+                </select>
+                <input type="number" value="1">
+                <a href="#" class="btn">Add To Cart!</a>
+
+                <h3>Product Details</h3>
+                <p>London Hills Solid Men's Round Neck Cotton Blend Half Sleeve T-Shirts<br>Exclusive In Shop Studio</p>
+            </div>
+        </div>
+    </div>
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>Related Products</h2>
+            <p>View More</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <img src="photos/images/image-product5.jpg" alt="">
+            <div class="r1">
+                <h4>Grey Simple T-Shirt</h4>
+                <div class="ratings">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$20.00</p>
+            </div>
+        </div>
+        <div class="col-4">
+            <img src="photos/images/jeans2.jpg" class="img1">
+            <div class="r1">
+                <h4>Blue Leather Jeans</h4>
+            <div class="ratings">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$70.00</p>
+            </div>
+        </div>
+        <div class="col-4">
+            <img src="photos/images/perfume.jpg" height="539px">
+            <div class="r1">
+                <h4>Body-Perfume</h4>
+                <div class="ratings">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+        </div>
+        <div class="col-4">
+            <img src="photos/images/lining-shirt.jpg" class="img1">
+            <div class="r1">
+                <h4>Trending Blue Shirt</h4>
+                <div class="ratings">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$110.00</p>
+            </div>
+        </div>  
+</div>
+<!-------------footer------------------>
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App From</h3>
+                <p>For More Information Download Our App</p>
+                <div class="app-logo">
+                    <img src="photos/image10.jpg" alt="">
+                    <img src="photos/app-store-removebg-preview.png" class="s1">  
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <h3>Follow US On</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>Twitter</li>
+                    <li>Y0uTube</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <p class="copyright">Copyright 2023 - SHOP STUDIO</p>
+</div>
+<script>
+    var mitems = document.getElementById("mitems");
+    mitems.style.maxHeight = "0px";
+    function touch()
+    {
+        if( mitems.style.maxHeight == "0px"){
+            mitems.style.maxHeight = "200px";
+        }
+        else{
+            mitems.style.maxHeight = "0px";
+        }
+    }
+</script>
+<script>
+    var ProductImg = document.getElementById("ProductImage");
+    var SmallImg = document.getElementsByClassName("small-img");
+
+SmallImg[0].onclick = function()
+{
+    ProductImg.src = SmallImg[0].src;
+}
+SmallImg[1].onclick = function()
+{
+    ProductImg.src = SmallImg[1].src;
+}
+SmallImg[2].onclick = function()
+{
+    ProductImg.src = SmallImg[2].src;
+}
+SmallImg[3].onclick = function()
+{
+    ProductImg.src = SmallImg[3].src;
+}
+    
+</script>
+</body>
+</html>

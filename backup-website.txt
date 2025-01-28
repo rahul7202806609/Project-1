@@ -1,0 +1,1537 @@
+css
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    list-style: none;
+    display: inline-block;
+}
+nav ul li{
+    display: inline-block;
+    margin: 20px;
+}
+a{
+    text-decoration: none;
+    color: #555;
+}
+p{
+    color: #555;
+}
+.container{
+    max-width: 1400px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col-2 img{
+    max-width: 100%;
+    padding: 50px 0;
+}
+.col-2 h1{
+    font-size: 40px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+.btn{
+    display: inline-block;
+    background: #042ae6;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background: #45376b;
+}
+.header{
+    background: radial-gradient(#fff,#8697ea);
+}
+.header .row{
+    margin-top:30px;
+}
+.categories{
+    margin: 70px 0;
+}
+.col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+.col-3 img{
+    width: 100%;
+}
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.col-4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+.col-4 img{
+    width: 100%;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+}
+.img1{
+     height: 539px;   
+}
+.title{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+}
+.title::after{
+    content: '';
+    background: #042ae6;
+    width: 150px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+}
+.ratings{
+    color: #042ae6;
+}
+h4{
+    color: #555;
+    font-weight: bold;
+}
+.col-4:hover{
+     transform: translateY(-10px);
+}
+.offer{
+    background: radial-gradient(#fff,#8697ea);
+    margin-top: 80px;
+    padding: 30px 0;   
+}
+.col-2{
+    max-width: 1400px;
+}
+.col-2 .offer-img{
+    padding: 50px;
+}
+.col-2 p{
+    font-weight: bold;
+    font-size: 16px;
+}
+.col-2 small{
+    font-size: 17px;
+}
+.testonomial{
+    padding-top: 30px;
+}
+.testonomial .col-3{
+      text-align: center;
+      padding: 40px 20px;
+      box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+      transition: transform 0.5s;
+}
+.testonomial .col-3 img{
+    width: 90px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.testonomial .col-3:hover{
+      transform: translateY(-10px);
+}
+.col-5 img{
+    cursor: pointer;
+    filter: grayscale(100%);
+    transition: 1s;
+}
+.col-5 img:hover{
+    filter: grayscale(0%);
+}
+.footer{
+    background: black;
+    color: white;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+.footer p{
+    color: grey;
+}
+.footer h3{
+    color: white;
+    margin-bottom: 20px;
+}
+.footer-col-1,.footer-col-2{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+.footer-col-1{
+    flex-basis: 30%;
+}
+.footer-col-2{
+    padding-bottom: 50px;
+}
+ul{
+    list-style-type: none;
+}
+.app-logo{
+    margin-top: 10px;
+}
+.app-logo img{
+    width: 140px;
+}
+.s1{
+    margin-bottom: 39px;
+    width: 170px;
+    height: 65px;
+}
+
+.footer hr{
+    background-color: grey;
+    height: 1px;
+    margin: 20px 0;
+}
+.copyright{
+    text-align: center;
+}
+.menu-icon{
+    margin-left: 20px;
+    display: none;
+}
+.row-2{
+    margin: 60px auto 50px;
+}
+.a-p{
+    overflow: hidden;
+}
+.a-p::after{
+    content: '';
+    background: #042ae6;
+    width: 110px;
+    height: 5px;
+    border-radius: 5px;
+    position:absolute;
+    left: 21%;
+    bottom: 390px;
+    transform: scaleX(0);
+    transition: transform 0.5s;
+    transform-origin: left;
+}
+.a-p:hover::after{
+    transform: scaleX(1);
+}
+select{
+    border: 2px solid #042ae6;
+    padding: 10px;
+    border-radius: 6px;
+}
+select:focus{
+    outline: none;
+}
+.page-btn{
+    margin: 0 auto 80px;
+}
+span{
+    display: inline-block;
+    border: 2px solid #042ae6;
+    margin-left: 15px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 6px;
+    cursor: pointer ;
+    transition: 0.5s ease;
+}
+span:hover{
+    background-color: #042ae6;
+    color: white;
+}
+.single-product{
+    margin-top: 40px;
+}
+.single-product .col-2{
+    margin-bottom: 10px;
+}
+.single-product .col-2 img{
+    padding: 0px;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+}
+.single-product .col-2{
+    padding: 10px;
+}
+.single-product select{
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+}
+.single-product input{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding-left: 10px;
+    font-size: 18px;
+    margin-right: 20px;
+    border: 2px solid #042ae6;
+}
+input:focus{
+    outline: none;
+}
+.small-img-row{
+    display: flex;
+    justify-content: space-between;
+}
+.small-img-col{
+    margin-left: 10px;
+}
+/*cart page*/
+.cart-page{
+    margin: 50px auto;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.cart-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+th{
+    text-align: left;
+    padding: 5px;
+    color:white;
+    background: #042ae6;
+    font-weight: normal;
+}
+td{
+    padding: 10px 5px;
+}
+td input{
+    width: 60px;
+    height: 40px;
+    padding: 5px;
+    border: 2px solid black;
+}
+ td a{
+    color: #042ae6;
+    font-size: 15px;
+}
+td p{
+    color: black;
+    font-weight: bold;
+}
+td img{
+    width: 110px;
+    height: 110px;
+    margin-right: 10px;
+}
+.total-price{
+    display: flex;
+    justify-content: flex-end;
+}
+.total-price table{
+    border-top: 3px solid #042ae6;
+    width: 100%;
+    max-width: 370px;
+}
+.total-price td{
+    color: black;
+    font-weight: bold;
+}
+td:last-child{
+    text-align: right;
+}
+th:last-child{
+    text-align: right;
+}
+.option select{
+    width: 100px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 2px;
+    padding: 5px;
+}
+.option select:focus{
+    outline: none;
+}
+
+/*account-page*/
+
+.account-page{
+    padding: 50px 0;
+    background: radial-gradient(#fff,#8697ea);   
+}
+.form-container{
+    background: #fff;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    margin: auto;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+.form-container span{
+    font-weight: bold;
+    padding: 0 10px;
+    color: #555;
+    cursor: pointer;
+    width: 100px;
+    display: inline-block;
+    border: 0px;
+}
+.form-container span:hover{
+background-color: white;
+}
+.form-btn{
+    display: inline-block;
+}
+.form-container form{
+    max-width: 300px;
+    padding: 0 20px;
+    position: absolute;
+    top: 130px;
+    transition: transform 1s;
+}
+form input{
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+}
+form .btn{
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+}
+form .btn :focus{
+    outline: none;
+}
+#Loginform{
+    left: -300px;
+}
+#Regform{
+    left: 0;
+}
+#Indicator{
+    width:100px;
+    border: none;
+    background: #042ae6;
+    height: 3px;
+    margin-top: 6px;
+    margin-left: 32px;
+    transform: translateX(100px);
+    transition: transform 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:868px){
+    nav ul{
+        position: absolute;
+        top: 150px;
+        left: 0;
+        background: #333;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    nav ul li a{
+        color: white;
+    }
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+    .cart-info p{
+        display: none;
+    }
+}
+@media only screen and (max-width:600px){
+    .row{
+        text-align: center;
+    }
+    .col-2, .col-3, .col-4, .col-5{
+        flex-basis: 100%;
+    }
+    .page-btn{
+        text-align: center;
+    }
+    .single-product .col-2{
+        text-align: left;
+    }
+}
+
+
+
+
+==========================================================================================
+
+html home page
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="website.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="E-commerce-website.html"><img src="images/image-logo1-removebg-preview.png" width="200px"></a>
+            </div>
+            <nav>
+                <ul id="mitems">
+                    <li><a href="E-commerce-website.html">Home</a></li>
+                    <li><a href="products.html">Product</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <img src="images/image15i.png.png" width="35px" height="35px" >
+            <img src="images/image14ii.png.png" width="35px" height="35px" class="menu-icon" onclick="touch()">
+        </div>
+        <div class="row">
+            <div class="col-2">
+                  <h1>An exciting place for <br>the whole family to shop.</h1>
+                  <p>There are several benefits of online shopping. Firstly, it is very convenient as you can <br>shop from the comfort of your own home. Secondly, it is very fast and you can find <br> what you are looking for quickly and easily.</p>
+                <a href="" class="btn">Explore Now &#8608;</a>
+                </div>
+            <div class="col-2">
+                  <img src="images/backimage-removebg-preview.png">
+            </div>
+        </div>
+    </div>
+</div>
+<!--------Featured-cateategories------->
+
+<div class="categories">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <img src="images/image2.jpg">
+            </div>
+            <div class="col-3">
+                <img src="images/image2ii.jpg" alt="">
+            </div>
+            <div class="col-3">
+                <img src="images/image2i.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+<!--------Featured-Products------->
+<div class class="small-container">
+    <h2 class="title">Featured Products</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="images/sample.jpeg" alt="">
+            <div class="r1">
+                <h4>Black Simple T-Shirt</h4>
+            <div class="ratings">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$20.00</p>
+            </div>
+        </div>
+        <div class="col-4">
+            <img src="https://m.media-amazon.com/images/I/61VYhbu1a-L._UY879_.jpg" class="img1" >
+            <div class="r1">
+                <h4>Black Leather Jeans</h4>
+                <div class="ratings">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$70.00</p>
+            </div>
+        </div>
+        <div class="col-4">
+            <img src="images/image-product3.jpg">
+            <div class="r1">
+                <h4>Red Simple T-Shirt</h4>
+                <div class="ratings">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+        </div>
+        <div class="col-4">
+            <img src="images/image11i.jpg" class="img1">
+            <div class="r1">
+                <h4>Lining Trending Shirt</h4>
+                <div class="ratings">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$110.00</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!--------Latest-Products------->
+    <h2 class="title">Latest Products</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="images/image-product5.jpg" alt="">
+            <div class="r1">
+                <h4>Grey Simple T-Shirt</h4>
+                <div class="ratings">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$20.00</p>
+            </div>
+        </div>
+        <div class="col-4">
+            <img src="images/jeans2.jpg" class="img1">
+            <div class="r1">
+                <h4>Blue Leather Jeans</h4>
+            <div class="ratings">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$70.00</p>
+            </div>
+        </div>
+        <div class="col-4">
+            <img src="images/perfume.jpg" height="539px">
+            <div class="r1">
+                <h4>Body-Perfume</h4>
+                <div class="ratings">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+        </div>
+        <div class="col-4">
+            <img src="images/lining-shirt.jpg" class="img1">
+            <div class="r1">
+                <h4>Trending Blue Shirt</h4>
+                <div class="ratings">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$110.00</p>
+            </div>
+        </div>  
+</div>
+<!--------offer-------->
+<div class="offer">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-2">
+                <img src="images/maxima-watch-removebg-preview.png" class="offer-img">
+            </div>
+            <div class="col-2">
+                <p>Exclusively Availabel On Shop Studio</p>
+                <h1>Maxima Max Turbo 2.0</h1>
+                <small>Maxima Turbo 2 1.96" HD Display Bluetooth Calling Smart Watch |Smartwatch with AI Voice Assistant, Spo2 Monitoring, Heart Rate, Sleep Tracking | IP68 Rated | Long 8 Days Battery | Multiple Watch Faces</small>
+            <a href="" class="btn">Buy Now&#8608;</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------testonomial-------->
+<div class="testonomial">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <img src="images/user1.png" alt="">
+                <h3>May Parker</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, nobis iste. Odit asperiores cupiditate vel. Quis repellendus iure eveniet, libero vitae cumque qui harum perspiciatis placeat corrupti pariatur quasi iste.</p>
+                <div class="ratings">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+            <div class="col-3">
+                <img src="images/user2.png" alt="">
+                <h3>Christian Grey</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, nobis iste. Odit asperiores cupiditate vel. Quis repellendus iure eveniet, libero vitae cumque qui harum perspiciatis placeat corrupti pariatur quasi iste.</p>
+                <div class="ratings">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+            <div class="col-3">
+                <img src="images/user3.png" alt="">
+                <h3>Anasthasia Steele</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, nobis iste. Odit asperiores cupiditate vel. Quis repellendus iure eveniet, libero vitae cumque qui harum perspiciatis placeat corrupti pariatur quasi iste.</p>
+                <div class="ratings">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------brands--------->
+<div class="brands">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-5">
+                <img src="images/brand1.png" width="180px">
+            </div>
+            <div class="col-5">
+                <img src="images/brand5-removebg-preview.png" width="220px">
+            </div>
+            <div class="col-5">
+                <img src="images/brand4.png" width="200px">
+            </div>
+            <div class="col-5">
+                <img src="images/brand6-removebg-preview.png" width="180px">
+            </div>
+            <div class="col-5">
+                <img src="images/brand2-removebg-preview.png" width="140px">
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------footer------------------>
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App From</h3>
+                <p>For More Information Download Our App</p>
+                <div class="app-logo">
+                    <img src="images/image10.jpg" alt="">
+                    <img src="images/app-store-removebg-preview.png" class="s1">  
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <h3>Follow US On</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>Twitter</li>
+                    <li>Y0uTube</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <p class="copyright">Copyright 2023 - SHOP STUDIO</p>
+</div>
+<script>
+    var mitems = document.getElementById("mitems");
+    mitems.style.maxHeight = "0px";
+    function touch()
+    {
+        if( mitems.style.maxHeight == "0px"){
+            mitems.style.maxHeight = "200px";
+        }
+        else{
+            mitems.style.maxHeight = "0px";
+        }
+    }
+</script>
+</body>
+</html>
+=========================================================================================================
+html account
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="website.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/image-logo1-removebg-preview.png" width="200px">
+            </div>
+            <nav>
+                <ul id="mitems">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Product</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Account</a></li>
+                </ul>
+            </nav>
+            <img src="images/image15i.png.png" width="35px" height="35px" >
+            <img src="images/image14ii.png.png" width="35px" height="35px" class="menu-icon" onclick="touch()">
+        </div>
+    </div>
+</div>
+<!-------account-page------------>
+<div class="account-page">
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+                <img src="images/backimage-removebg-preview.png" width="100%">
+            </div>
+            <div class="col-2">
+                <div class="form-container">
+                    <div class="form-btn">
+                        <span onclick="login()">Login</span>
+                        <span onclick="reg()">Register</span>
+                        <hr id="Indicator">
+                    </div>
+                    <form id="Loginform">
+                        <input type="text" placeholder="Username">
+                        <input type="password" placeholder="Password">
+                        <button type="submit" class="btn">Login</button>
+                        <a href="">Forgot Password</a>
+                    </form>
+                    <form id="Regform">
+                        <input type="text" placeholder="Username">
+                        <input type="email" placeholder="E-Mail">
+                        <input type="password" placeholder="Password">
+                        <button type="submit" class="btn">Register</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------footer------------------>
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App From</h3>
+                <p>For More Information Download Our App</p>
+                <div class="app-logo">
+                    <img src="images/image10.jpg" alt="">
+                    <img src="images/app-store-removebg-preview.png" class="s1">  
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <h3>Follow US On</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>Twitter</li>
+                    <li>Y0uTube</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <p class="copyright">Copyright 2023 - SHOP STUDIO</p>
+</div>
+<!------Js-For-Toggle-Menu------>
+<script>
+    var mitems = document.getElementById("mitems");
+    mitems.style.maxHeight = "0px";
+    function touch()
+    {
+        if( mitems.style.maxHeight == "0px"){
+            mitems.style.maxHeight = "200px";
+        }
+        else{
+            mitems.style.maxHeight = "0px";
+        }
+    }
+</script>
+<!------Js-For-Toggle-Form------>
+<script>
+    var Loginfrom = document.getElementById("Loginform");
+    var Regfrom = document.getElementById("Regform");
+    var Indicator = document.getElementById("Indicator");
+
+    function reg(){
+        Regform.style.transform = "translateX(0px)";
+        Loginform.style.transform = "translateX(0px)";
+        Indicator.style.transform = "translateX(100px)";
+
+    }
+
+    function login(){
+        Regform.style.transform = "translateX(300px)";
+        Loginform.style.transform = "translateX(300px)";
+        Indicator.style.transform = "translateX(0px)";
+    }
+</script>
+</body>
+</html>
+============================================================================================
+cart page
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="website.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/image-logo1-removebg-preview.png" width="200px">
+            </div>
+            <nav>
+                <ul id="mitems">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Product</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Account</a></li>
+                </ul>
+            </nav>
+            <img src="images/image15i.png.png" width="35px" height="35px" >
+            <img src="images/image14ii.png.png" width="35px" height="35px" class="menu-icon" onclick="touch()">
+        </div>
+    </div>
+    <!-------------Cart PAge----------------->
+    <div class="small-container cart-page">
+        <table>
+            <tr>
+                <th>Products</th>
+                <th>Size</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="images/cart.jpg" width="240px">
+                        <div>
+                            <p>Blue Printed T-shirt</p>
+                            <small>Price: $50.00</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                    <td>
+                        <div class="option">
+                        <select>
+                            <option>Select Size</option>
+                            <option>XL</option>
+                            <option>XXL</option>
+                            <option>XXL</option>
+                            <option>Small</option>
+                            <option>Medium</option>
+                            <option>Large</option>
+                        </select>
+                    </div>
+                    </td>
+                <td><input type="number" value="1"></td>
+                <td>$50.00</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="images/cart2.jpg" width="240px">
+                        <div>
+                            <p>Black Printed T-shirt</p>
+                            <small>Price: $70.00</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="option">
+                    <select>
+                        <option>Select Size</option>
+                        <option>XL</option>
+                        <option>XXL</option>
+                        <option>XXL</option>
+                        <option>Small</option>
+                        <option>Medium</option>
+                        <option>Large</option>
+                    </select>
+                </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$70.00</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="images/cart3.jpg" width="240px">
+                        <div>
+                            <p>Grey Printed T-shirt</p>
+                            <small>Price: $30.00</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="option">
+                    <select>
+                        <option>Select Size</option>
+                        <option>XL</option>
+                        <option>XXL</option>
+                        <option>XXL</option>
+                        <option>Small</option>
+                        <option>Medium</option>
+                        <option>Large</option>
+                    </select>
+                </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$30.00</td>
+            </tr>
+        </table>
+        <div class="total-price">
+            <table>
+                <tr>
+                    <td>Subtotal</td>
+                    <td>$150.00</td>
+                </tr>
+                <tr>
+                    <td>Tax</td>
+                    <td>$20.00</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>$170.00</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+<!-------------footer------------------>
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App From</h3>
+                <p>For More Information Download Our App</p>
+                <div class="app-logo">
+                    <img src="images/image10.jpg" alt="">
+                    <img src="images/app-store-removebg-preview.png" class="s1">  
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <h3>Follow US On</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>Twitter</li>
+                    <li>Y0uTube</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <p class="copyright">Copyright 2023 - SHOP STUDIO</p>
+</div>
+<script>
+    var mitems = document.getElementById("mitems");
+    mitems.style.maxHeight = "0px";
+    function touch()
+    {
+        if( mitems.style.maxHeight == "0px"){
+            mitems.style.maxHeight = "200px";
+        }
+        else{
+            mitems.style.maxHeight = "0px";
+        }
+    }
+</script>
+</body>
+</html>
+
+==============================================================================================================
+product page
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="website.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/image-logo1-removebg-preview.png" width="200px">
+            </div>
+            <nav>
+                <ul id="mitems">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Product</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Account</a></li>
+                </ul>
+            </nav>
+            <img src="images/image15i.png.png" width="35px" height="35px" >
+            <img src="images/image14ii.png.png" width="35px" height="35px" class="menu-icon" onclick="touch()">
+        </div>
+    </div>
+    <!--------Latest-Products------->
+    <div class="small-container single-product">
+        <div class="row">
+            <div class="col-2">
+                <img src="images/image1.jpg" width="370px" id="ProductImage">
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="images/image1.jpg" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/image1i.jpg" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/image1ii.jpg" class="small-img">
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <p>Home/T-shirt</p>
+                <h1>Black-Printed T-shirt By Shop Studio</h1>
+                <h4>$50.00</h4>
+                <select>
+                    <option>Select Size</option>
+                    <option>XL</option>
+                    <option>XXL</option>
+                    <option>XXL</option>
+                    <option>Small</option>
+                    <option>Medium</option>
+                    <option>Large</option>
+                </select>
+                <input type="number" value="1">
+                <a href="#" class="btn">Add To Cart!</a>
+
+                <h3>Product Details</h3>
+                <p>London Hills Solid Men's Round Neck Cotton Blend Half Sleeve T-Shirts<br>Exclusive In Shop Studio</p>
+            </div>
+        </div>
+    </div>
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>Related Products</h2>
+            <p>View More</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <img src="images/image-product5.jpg" alt="">
+            <div class="r1">
+                <h4>Grey Simple T-Shirt</h4>
+                <div class="ratings">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$20.00</p>
+            </div>
+        </div>
+        <div class="col-4">
+            <img src="images/jeans2.jpg" class="img1">
+            <div class="r1">
+                <h4>Blue Leather Jeans</h4>
+            <div class="ratings">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$70.00</p>
+            </div>
+        </div>
+        <div class="col-4">
+            <img src="images/perfume.jpg" height="539px">
+            <div class="r1">
+                <h4>Body-Perfume</h4>
+                <div class="ratings">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+        </div>
+        <div class="col-4">
+            <img src="images/lining-shirt.jpg" class="img1">
+            <div class="r1">
+                <h4>Trending Blue Shirt</h4>
+                <div class="ratings">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$110.00</p>
+            </div>
+        </div>  
+</div>
+<!-------------footer------------------>
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App From</h3>
+                <p>For More Information Download Our App</p>
+                <div class="app-logo">
+                    <img src="images/image10.jpg" alt="">
+                    <img src="images/app-store-removebg-preview.png" class="s1">  
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <h3>Follow US On</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>Twitter</li>
+                    <li>Y0uTube</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <p class="copyright">Copyright 2023 - SHOP STUDIO</p>
+</div>
+<script>
+    var mitems = document.getElementById("mitems");
+    mitems.style.maxHeight = "0px";
+    function touch()
+    {
+        if( mitems.style.maxHeight == "0px"){
+            mitems.style.maxHeight = "200px";
+        }
+        else{
+            mitems.style.maxHeight = "0px";
+        }
+    }
+</script>
+<script>
+    var ProductImg = document.getElementById("ProductImage");
+    var SmallImg = document.getElementsByClassName("small-img");
+
+SmallImg[0].onclick = function()
+{
+    ProductImg.src = SmallImg[0].src;
+}
+SmallImg[1].onclick = function()
+{
+    ProductImg.src = SmallImg[1].src;
+}
+SmallImg[2].onclick = function()
+{
+    ProductImg.src = SmallImg[2].src;
+}
+SmallImg[3].onclick = function()
+{
+    ProductImg.src = SmallImg[3].src;
+}
+    
+</script>
+</body>
+</html>
+
+===================================================================================================================
+
+product 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="website.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/image-logo1-removebg-preview.png" width="200px">
+            </div>
+            <nav>
+                <ul id="mitems">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Product</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Account</a></li>
+                </ul>
+            </nav>
+            <img src="images/image15i.png.png" width="35px" height="35px" >
+            <img src="images/image14ii.png.png" width="35px" height="35px" class="menu-icon" onclick="touch()">
+        </div>
+    </div>
+<!--------Featured-Products------->
+<div class class="small-container">
+    <div class="row row-2">
+        <h2 class="a-p">All Products</h2>
+        <select>
+            <option>Default Shorting</option>
+            <option>Short By Price</option>
+            <option>Short By Popularity</option>
+            <option>Short By Ratings</option>
+            <option>Short By Fashion</option>
+        </select>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <img src="images/image1.jpg" alt="">
+            <div class="r1">
+                <h4>Black Simple T-Shirt</h4>
+            <div class="ratings">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$20.00</p>
+            </div>
+        </div>
+        <div class="col-4">
+            <img src="https://m.media-amazon.com/images/I/61VYhbu1a-L._UY879_.jpg" class="img1" >
+            <div class="r1">
+                <h4>Black Leather Jeans</h4>
+                <div class="ratings">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$70.00</p>
+            </div>
+        </div>
+        <div class="col-4">
+            <img src="images/image-product3.jpg">
+            <div class="r1">
+                <h4>Red Simple T-Shirt</h4>
+                <div class="ratings">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+        </div>
+        <div class="col-4">
+            <img src="images/image11i.jpg" class="img1">
+            <div class="r1">
+                <h4>Lining Trending Shirt</h4>
+                <div class="ratings">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$110.00</p>
+            </div>
+        </div>
+    </div>
+        <div class="row">
+        <div class="col-4">
+            <img src="images/image-product5.jpg" alt="">
+            <div class="r1">
+                <h4>Grey Simple T-Shirt</h4>
+                <div class="ratings">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$20.00</p>
+            </div>
+        </div>
+        <div class="col-4">
+            <img src="images/jeans2.jpg" class="img1">
+            <div class="r1">
+                <h4>Blue Leather Jeans</h4>
+            <div class="ratings">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$70.00</p>
+            </div>
+        </div>
+        <div class="col-4">
+            <img src="images/perfume.jpg" height="539px">
+            <div class="r1">
+                <h4>Body-Perfume</h4>
+                <div class="ratings">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+        </div>
+        <div class="col-4">
+            <img src="images/lining-shirt.jpg" class="img1">
+            <div class="r1">
+                <h4>Trending Blue Shirt</h4>
+                <div class="ratings">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$110.00</p>
+            </div>
+        </div>  
+</div>
+    <div class="page-btn">
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span>&#8608;</span>
+    </div>
+    </div>
+    <!---------footer----------->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App From</h3>
+                <p>For More Information Download Our App</p>
+                <div class="app-logo">
+                    <img src="images/image10.jpg" alt="">
+                    <img src="images/app-store-removebg-preview.png" class="s1">  
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <h3>Follow US On</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>Twitter</li>
+                    <li>Y0uTube</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <p class="copyright">Copyright 2023 - SHOP STUDIO</p>
+</div>
+<script>
+    var mitems = document.getElementById("mitems");
+    mitems.style.maxHeight = "0px";
+    function touch()
+    {
+        if( mitems.style.maxHeight == "0px"){
+            mitems.style.maxHeight = "200px";
+        }
+        else{
+            mitems.style.maxHeight = "0px";
+        }
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="website.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="photos/image-logo1-removebg-preview.png" width="200px">
+            </div>
+            <nav>
+                <ul id="mitems">
+                    <li><a href="E-commerceWeb2.html">Home</a></li>
+                    <li><a href="products.html">Product</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="Account2.html">Account</a></li>
+                </ul>
+            </nav>
+            <img src="photos/image15i.png.png" width="35px" height="35px" >
+            <img src="photos/image14ii.png.png" width="35px" height="35px" class="menu-icon" onclick="touch()">
+        </div>
+    </div>
+</div>
+<!-------account-page------------>
+<div class="account-page">
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+                <img src="photos/backimage-removebg-preview.png" width="100%">
+            </div>
+            <div class="col-2">
+                <div class="form-container">
+                    <div class="form-btn">
+                        <span onclick="login()">Login</span>
+                        <span onclick="reg()">Register</span>
+                        <hr id="Indicator">
+                    </div>
+                    <form id="Loginform">
+                        <input type="text" placeholder="Username">
+                        <input type="password" placeholder="Password">
+                        <button type="submit" class="btn">Login</button>
+                        <a href="">Forgot Password</a>
+                    </form>
+                    <form id="Regform">
+                        <input type="text" placeholder="Username">
+                        <input type="email" placeholder="E-Mail">
+                        <input type="password" placeholder="Password">
+                        <button type="submit" class="btn">Register</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------footer------------------>
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App From</h3>
+                <p>For More Information Download Our App</p>
+                <div class="app-logo">
+                    <img src="photos/image10.jpg" alt="">
+                    <img src="photos/app-store-removebg-preview.png" class="s1">  
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <h3>Follow US On</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>Twitter</li>
+                    <li>Y0uTube</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <p class="copyright">Copyright 2023 - SHOP STUDIO</p>
+</div>
+<!------Js-For-Toggle-Menu------>
+<script>
+    var mitems = document.getElementById("mitems");
+    mitems.style.maxHeight = "0px";
+    function touch()
+    {
+        if( mitems.style.maxHeight == "0px"){
+            mitems.style.maxHeight = "200px";
+        }
+        else{
+            mitems.style.maxHeight = "0px";
+        }
+    }
+</script>
+<!------Js-For-Toggle-Form------>
+<script>
+    var Loginfrom = document.getElementById("Loginform");
+    var Regfrom = document.getElementById("Regform");
+    var Indicator = document.getElementById("Indicator");
+
+    function reg(){
+        Regform.style.transform = "translateX(0px)";
+        Loginform.style.transform = "translateX(0px)";
+        Indicator.style.transform = "translateX(100px)";
+
+    }
+
+    function login(){
+        Regform.style.transform = "translateX(300px)";
+        Loginform.style.transform = "translateX(300px)";
+        Indicator.style.transform = "translateX(0px)";
+    }
+</script>
+</body>
+</html>
